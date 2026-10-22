@@ -8,11 +8,8 @@ export default function Footer() {
         <div className="footer-grid">
           <div>
             <a href="#top" className="brand">
-              <img src="/assets/logo-mark.svg" alt="" width={46} height={46} />
               <span className="brand-text">
-                <b>
-                  MANDARIN<i>MALLU</i>
-                </b>
+                <b>{SITE.name}</b>
               </span>
             </a>
             <p className="addr">{SITE.address}</p>

@@ -26,7 +26,7 @@ export default function Journey() {
             Book a free consultation
           </a>
         </div>
-        <div className="journey-media" style={{ backgroundImage: "url('/assets/journey.svg')" }}>
+        <div className="journey-media" style={{ backgroundImage: "url('/assets/hero.jpg')" }}>
           <span className="play">
             <Play size={28} fill="currentColor" />
           </span>

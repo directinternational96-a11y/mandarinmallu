@@ -32,8 +32,8 @@ Vercel project settings so canonical/OG URLs, the sitemap and structured data po
 | `lib/catalogue.ts` | Build-time loader that reads `data/programs.json` |
 | `data/programs.json` | University programs dataset (395 programs). Replace this file to update the catalogue, then redeploy |
 | `components/` | One component per page section (`Hero`, `Programs`, `Faq`, …) |
-| `app/globals.css` | All styling (plain CSS, one rule per line). Brand colours are CSS variables in `:root` — `--primary` (scholar navy), `--navy`, `--accent` (gold), `--tint*` — change them there to re-theme |
-| `app/layout.tsx` | Fonts, `<head>` metadata, Open Graph / Twitter cards |
+| `app/globals.css` | All styling (plain CSS, grouped by section). Design tokens live in `:root`: colours (`--primary` scholar navy, `--navy`, `--accent` gold, `--tint*`), corner radii (`--r-sm/md/lg` = 4/6/10px) and font stacks (`--font-head` serif, `--font-body` sans). Change them there to re-theme |
+| `app/layout.tsx` | Fonts (Source Serif 4 for headings, Source Sans 3 for body, self-hosted via `next/font`), `<head>` metadata, Open Graph / Twitter cards |
 | `app/sitemap.ts`, `app/robots.ts` | Generated `sitemap.xml` and `robots.txt` |
 | `public/assets/` | Images (hero, logo, team photos, success stories) |
 

@@ -11,9 +11,6 @@ export default function StudentSuccess() {
     <section className="section student-success" id="student-success">
       <div className="wrap">
         <div className="section-head reveal">
-          <span className="success-eyebrow">
-            <GraduationCap size={17} /> REAL JOURNEYS. PROUD MILESTONES.
-          </span>
           <h2>
             Student <span>Success Stories</span>
           </h2>

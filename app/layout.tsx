@@ -1,12 +1,19 @@
 import type { Metadata, Viewport } from "next";
-import { Noto_Sans_Malayalam, Plus_Jakarta_Sans } from "next/font/google";
+import { Noto_Sans_Malayalam, Source_Sans_3, Source_Serif_4 } from "next/font/google";
 import { SITE, SITE_DESCRIPTION, SITE_TITLE, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
-const jakarta = Plus_Jakarta_Sans({
+const sans = Source_Sans_3({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-  variable: "--font-jakarta",
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-sans",
+  display: "swap",
+});
+
+const serif = Source_Serif_4({
+  subsets: ["latin"],
+  weight: ["500", "600", "700"],
+  variable: "--font-serif",
   display: "swap",
 });
 
@@ -76,7 +83,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${jakarta.variable} ${malayalam.variable}`}>
+    <html lang="en" className={`${sans.variable} ${serif.variable} ${malayalam.variable}`}>
       <body>{children}</body>
     </html>
   );

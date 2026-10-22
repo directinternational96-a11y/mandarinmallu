@@ -27,7 +27,6 @@ export default function TopBar() {
               <Icon size={18} />
             </a>
           ))}
-          <span className="lang">EN</span>
         </div>
       </div>
     </div>
