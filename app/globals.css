@@ -20,6 +20,7 @@
   --line: #e4e4e1;
   --line-strong: #cbcbc7;
   --green: #1d7a45;
+  --brand-red: #d7262d;
   --r-sm: 4px;
   --r-md: 6px;
   --r-lg: 10px;
@@ -94,9 +95,11 @@ h4 { font-weight: 600; }
   max-width: 1180px; margin: 0 auto; padding: 0 24px; height: var(--nav-h);
   display: flex; align-items: center; gap: 32px;
 }
-.brand { display: inline-flex; align-items: center; flex: none; color: var(--navy); }
+.brand { display: inline-flex; align-items: center; gap: 10px; flex: none; color: var(--navy); }
+.brand img { width: 34px; height: 34px; flex: none; }
 .brand-text { display: flex; flex-direction: column; line-height: 1; }
-.brand-text b { font-size: 19px; font-weight: 700; letter-spacing: .04em; white-space: nowrap; }
+.brand-text b { font-size: 19px; font-weight: 700; letter-spacing: .03em; white-space: nowrap; }
+.brand-text b span { color: var(--brand-red); }
 .nav-links { display: flex; gap: 28px; margin-left: auto; }
 .nav-links a { font-weight: 500; font-size: 15px; color: #333; transition: color .15s; }
 .nav-links a:hover { color: var(--primary); }
@@ -478,6 +481,8 @@ h4 { font-weight: 600; }
 
   .nav-inner { padding: 0 20px; height: 60px; }
   .brand-text b { font-size: 17px; }
+  .brand { gap: 8px; }
+  .brand img { width: 30px; height: 30px; }
   .nav-links { padding: 4px 20px 12px; }
 
   .hero { min-height: 560px; }

@@ -40,7 +40,13 @@ export const metadata: Metadata = {
     "MANDARINMALLU",
   ],
   alternates: { canonical: "/" },
-  icons: { icon: "/assets/logo-mark.svg" },
+  icons: {
+    icon: [
+      { url: "/assets/logo-mark.svg", type: "image/svg+xml" },
+      { url: "/favicon.png", sizes: "64x64", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     type: "website",
     url: "/",

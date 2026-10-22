@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#163b7a"/><stop offset="1" stop-color="#2a5cc0"/></linearGradient></defs><rect width="64" height="64" rx="16" fill="url(#g)"/><path d="M14 46V20l9 0 9 14 9-14h9v26h-8V32l-7 11h-4l-7-11v14z" fill="#e4a93a"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="MANDARINMALLU">
+  <path fill="#163b7a" d="M12 88V36h17l21 27 21-27h17v52H73V58L55 81H45L27 58v30z"/>
+  <path fill="#163b7a" d="M50 10l29 13-29 13-29-13z"/>
+  <path fill="#163b7a" d="M36 29v8c0 5 6.5 9 14 9s14-4 14-9v-8l-14 6.3z"/>
+  <path fill="none" stroke="#e4a93a" stroke-width="3" stroke-linecap="round" d="M23 24v17"/>
+  <circle cx="23" cy="43.5" r="3.4" fill="#e4a93a"/>
+  <path fill="none" stroke="#d7262d" stroke-width="7" stroke-linecap="round" d="M5 80c12 20 54 24 78-23"/>
+  <path fill="#d7262d" transform="translate(88 49) rotate(-40)" d="M12 0 8-2-2-2.5-7-10h-3l4 7.5-4 .3-3-3.3h-2l1.5 5.5L-15 5.5h2l3-3.3 4 .3-4 7.5h3l5-7.5 10-.5z"/>
+</svg>

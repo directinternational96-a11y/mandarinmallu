@@ -12,8 +12,11 @@ export default function Navbar() {
     <header className="navbar">
       <div className="nav-inner">
         <a href="#top" className="brand" aria-label={SITE.name}>
+          <img src="/assets/logo-mark.svg" alt="" width={34} height={34} />
           <span className="brand-text">
-            <b>{SITE.name}</b>
+            <b>
+              MANDARIN<span>MALLU</span>
+            </b>
           </span>
         </a>
 
