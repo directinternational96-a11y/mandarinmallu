@@ -554,11 +554,3 @@ h4 { font-weight: 600; }
   .footer-socials { flex-direction: column; align-items: flex-start; gap: 10px; }
   .legal { gap: 16px; }
 }
-
-/* ---------- Coming soon ---------- */
-.soon { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 24px 16px; }
-.soon-card { text-align: center; max-width: 480px; }
-.soon-card .brand { margin-bottom: 32px; }
-.soon-card h1 { font-size: clamp(36px, 6vw, 52px); color: var(--navy); }
-.soon-card p { color: var(--muted); font-size: 17px; margin-top: 12px; }
-.soon-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 28px; }
