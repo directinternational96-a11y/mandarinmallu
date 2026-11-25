@@ -69,8 +69,16 @@ export const metadata: Metadata = {
     description: SITE_DESCRIPTION,
     images: ["/assets/hero.jpg"],
   },
-  // Site is temporarily down (Coming Soon) — keep it out of search results.
-  robots: { index: false, follow: false },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export const viewport: Viewport = {
